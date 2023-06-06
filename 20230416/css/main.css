@@ -1,0 +1,55 @@
+.wrap {
+  width: 100%;
+  min-width: 1400px;
+  position: relative;
+}
+.wrap .box {
+  width: 1300px;
+  margin: 100px auto;
+}
+.wrap h2 {
+  width: 1000px;
+  height: 200px;
+  background: #1a237e;
+  color: #fff;
+  font-size: 60px;
+  font-weight: 700;
+  text-align: center;
+  line-height: 200px;
+  margin: auto;
+}
+.wrap ul {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 100px;
+}
+.wrap ul li {
+  width: 600px;
+  height: 600px;
+  background: #e3f2fd;
+  position: relative;
+  cursor: pointer;
+}
+.wrap ul li.on {
+  display: none;
+}
+.wrap ul li div {
+  background: #fff;
+  width: 550px;
+  height: 480px;
+  position: absolute;
+  top: 30px;
+  left: 50%;
+  transform: translateX(-50%);
+  background-position: 0 0;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.wrap ul li p {
+  font-size: 30px;
+  position: absolute;
+  bottom: 30px;
+  left: 50%;
+  transform: translateX(-50%);
+  font-weight: 500;
+}
