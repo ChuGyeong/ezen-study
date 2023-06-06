@@ -1,0 +1,19 @@
+.container {background: #EDF7F7;}
+.con-box {width: 1200px; height: 650px; margin: auto; display: flex; flex-wrap: wrap; justify-content: space-between; align-content: space-between;}
+.con-box .box {width: 380px; height: 300px; background: white; border-radius: 10px; background-image: none; background-repeat: no-repeat; background-position: right 30px bottom 50px; box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;}
+.con-box .box:nth-child(1) {background-image: url(../image/image_1.png);}
+.con-box .box:nth-child(2) {background-image: url(../image/image_2.png);}
+.con-box .box:nth-child(3) {background: #EFFBF9 url(../image/image_3.png); background-position: right 0 bottom 0; background-size: 70%; background-repeat: no-repeat;}
+.con-box .box:nth-child(5) {background-image: url(../image/image_6.png); background-size: 70px;}
+.con-box .box4 {width: 790px; display: flex; justify-content: space-between; background: white;}
+.con-box .box3 .card p span {font-size: 45px; font-weight: 800;}
+.con-box .box3 .card p {margin-bottom: 50px;}
+.con-box .box a h2 {height: 60px; line-height: 60px; padding-left: 30px;}
+.con-box .box1 a h2, .con-box .box2 a h2, .con-box .box3 a h2 {border-bottom: 1px solid #efefef;}
+.con-box .box:nth-child(1) p, .con-box .box:nth-child(2) p {margin-top: 50px;}
+.con-box .mini-box2 {width: 395px; border-left: 1px solid #efefef;}
+.con-box .box .card {padding: 30px; box-sizing: border-box;}
+.con-box .box .card strong {font-size: 20px; font-weight: 700;}
+.con-box .box .card p {font-size: 15px}
+.con-box .box .card .pdf {display:block; margin-top: 30px;}
+.con-box .box .card .pdf a {background: #efefef; padding: 10px 20px; border-radius: 20px 20px; font-weight: 600;}
