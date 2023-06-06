@@ -1,0 +1,18 @@
+.box {width: 400px; margin: auto; background: #efefef;}
+.box h2 {font-size: 35px; margin-bottom: 25px; font-weight: 700;}
+.box img {}
+.box img:hover {opacity: 0.5; transition: all 1s ease;}
+.box .box1 {text-align: center;}
+.box .box1 a {display:block; font-size: 20px; margin: 45px 0 55px; font-weight: 600;}
+.box .box1 a i {color:red}
+.box .box1 strong:hover {border-bottom: red 1px solid; color:red; transition: 1s;}
+.box .box1 p {width: 360px; height: 100px; overflow: hidden; white-space: normal; text-overflow: ellipsis; display: -webkit-box; -webkit-line-clamp: 4; -webkit-box-orient: vertical; margin: 0 20px 60px; }
+.box .box2 {display: flex; justify-content: end;}
+.box .box2 p {font-size: 14px;}
+.box .box2 p:last-child:before {content: ""; background: #000; width: 1px; height: 10px; display: inline-block; margin: 0 10px;}
+
+
+/* 
+        이미지 마우스 올렸을때 opacity
+        소제목 마우스 올렸을때 색변화 / 밑줄 구현 필수
+  */
