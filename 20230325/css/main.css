@@ -1,0 +1,17 @@
+.con-box {width: 1100px; height: 275px;
+	margin: 20px auto;
+}
+.con-box ul {display: flex;}
+.con-box ul li {width: 210px; height: 270px; border: 1px solid #b2b2b2; margin: 7px; text-align: center; padding: 30px 0; box-sizing: border-box; background: no-repeat 50% 40%; cursor: pointer;}
+.con-box ul li:hover {background: rgb(51, 151, 245) no-repeat 50% 40%; transition: 0.5s ease-in-out; color: white;}
+.con-box ul li:hover strong {color: white;}
+.con-box ul li:nth-child(1) {background-image: url(../images/t-ic1.png);}
+.con-box ul li:nth-child(2) {background-image: url(../images/t-ic2.png);}
+.con-box ul li:nth-child(3) {background-image: url(../images/t-ic3.png);}
+.con-box ul li:nth-child(4) {background-image: url(../images/t-ic4.png);}
+.con-box ul li:nth-child(5) {background-image: url(../images/t-ic5.png);}
+.con-box ul li h3 {font-size: 20px;}
+.con-box ul li strong {color: rgb(42, 115, 202); position: relative; top: 75px;}
+.con-box ul li strong span {font-size: 60px;}
+.con-box ul li p {font-size: 14px; position: relative; top: 70px;}
+
