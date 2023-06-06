@@ -1,0 +1,77 @@
+.wrap {
+   min-width: 1400px;
+   position: relative;
+}
+.wrap .inner {
+   width: 1200px;
+   margin: auto;
+}
+.wrap .list-box {
+   display: flex;
+   justify-content: space-between;
+   margin: 200px 0;
+}
+.wrap .list-box li {
+   width: 300px;
+   height: 100px;
+   background: lightgray;
+   border-radius: 30px;
+   font-size: 40px;
+   font-weight: 600;
+   box-sizing: border-box;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   transition: 0.3s;
+}
+
+/* 삭제x, 수정ok! */
+.wrap .list-box li.bd0 {
+   border: 5px solid red;
+}
+.wrap .list-box li.bd1 {
+   border: 5px dashed blue;
+}
+.wrap .list-box li.bd2 {
+   border: 5px dotted green;
+}
+.wrap .list-box li.bg0 {
+   background: skyblue;
+}
+.wrap .list-box li.bg1 {
+   background: yellowgreen;
+}
+.wrap .list-box li.bg2 {
+   background: pink;
+}
+.wrap .list-box li.c0 {
+   color: hotpink;
+}
+.wrap .list-box li.c1 {
+   color: lime;
+}
+.wrap .list-box li.c2 {
+   color: white;
+}
+/* ----------- */
+
+.wrap .answer-list-box li {
+   cursor: pointer;
+}
+.wrap .answer-list-box li:hover,
+.wrap .option-list-box li:hover {
+   opacity: 0.6;
+}
+.wrap .option-list-box {
+   padding: 20px;
+   background: #ededed;
+   margin-bottom: 0;
+   border-radius: 20px;
+}
+.wrap .option-list-box li {
+   border-radius: 15px;
+   width: 100px;
+   height: 50px;
+   font-size: 20px;
+   cursor: pointer;
+}
