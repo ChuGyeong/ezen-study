@@ -1,0 +1,15 @@
+#wrap {width: 100%;}
+.inner {width: 1600px margin: 20px auto;}
+#header .inner .box {display: flex; justify-content: space-between; margin: 10px 30px;}
+#header a:first-child img {width: 200px;}
+#header a:last-child img {width: 30px;}
+
+.con-box {background: #F3F3F3; position: relative; padding: 0 30px;}
+.con-box .inner {background-image: url(../images/bg.png); background-repeat: no-repeat; background-position: 95% 50%; background-attachment: fixed; background-size: 50%;}
+.inner h2 {padding-top: 90px; font-size: 40px; line-height: 1.2; margin-bottom: 10px;}
+.inner h2 + p {}
+.inner ul {display: flex; justify-content: space-between; margin: 70px 0;}
+.inner ul li {width: 280px; height: 380px; overflow: hidden; background: #fff; border-radius: 20px; box-sizing: border-box; padding: 15px; transition: 1s ease;}
+.inner ul li a strong {font-size: 20px; line-height: 1.3; font-weight: 700; display: block; margin-bottom: 35px; text-align: left;}
+.inner ul li a img {width: 250px; height: 250px; object-fit:cover; border-radius: 10px;}
+.inner p {}
