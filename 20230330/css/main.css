@@ -1,0 +1,16 @@
+#wrap{width: 100%;}
+.inner{width: 1400px; margin: 50px auto;}
+h2 {font-size: 40px; font-weight: 600; text-align: center; margin: 20px;}
+.tb {width: 100%; border-collapse: collapse; border-spacing: 0;}
+.tb w1 {width: 65px;}
+.tb w3 {width: 120px;}
+.tb w4 {width: 220px;}
+.tb w5 {width: 100px;}
+.tb thead tr th, .tb tbody tr td {height: 60px; text-align: center; border-bottom: 1px solid #ccc; vertical-align: middle;}
+.tb thead tr th {border-top: 2px solid #000; position: relative;}
+.tb thead tr th::after {content: ""; display: block; height: 40px; width: 1px; background: #ccc; position: absolute; top: 0%; transform: translateY(25%);}
+.tb thead tr th:first-child::after {background: none;}
+.tb tbody tr td:nth-child(2) {text-align: left; padding-left: 20px;}
+.page {text-align: center; margin-top: 25px;}
+.page .prev, .page .next, .page a {display: inline-block; width: 30px; height: 30px; line-height: 30px; vertical-align: middle;}
+.page a {border: 1px solid #000; }
